@@ -1,0 +1,540 @@
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~
+$ cd
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~
+$ cd Desktop/
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop
+$ cd Escuela_de_verano/
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ pwd
+/c/Users/Cristian Ortiz/Desktop/Escuela_de_verano
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ cd planets
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/planets (main)
+$ pwd
+/c/Users/Cristian Ortiz/Desktop/Escuela_de_verano/planets
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/planets (main)
+$ ls -F
+mars.txt  spaceships/
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/planets (main)
+$ git remoete add origin git@github.com:Crispv182/planets.git
+git: 'remoete' is not a git command. See 'git --help'.
+
+The most similar commands are
+        remote
+        remote-ext
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/planets (main)
+$ $ git remote add origin git@github.com:Crispv182/planets.git
+bash: $: command not found
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/planets (main)
+$ git remote add origin git@github.com:Crispv182/planets.git
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/planets (main)
+$ git remote -v
+origin  git@github.com:Crispv182/planets.git (fetch)
+origin  git@github.com:Crispv182/planets.git (push)
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/planets (main)
+$ ssh-keygen -t ed25519 -C "cristian.ortiz@unl.edu.ec"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/Cristian Ortiz/.ssh/id_ed25519):
+Enter passphrase for "/c/Users/Cristian Ortiz/.ssh/id_ed25519" (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Cristian Ortiz/.ssh/id_ed25519
+Your public key has been saved in /c/Users/Cristian Ortiz/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:yZENgEb7ogicUos+CeKtDfYnBur6q2hRKffHhUnDfo8 cristian.ortiz@unl.edu.ec
+The key's randomart image is:
++--[ED25519 256]--+
+|   ...o..        |
+|    o. + +       |
+|  ..o o * .      |
+|.+.= . = =       |
+|*o= o o S o      |
+|B+o. o o E .     |
+|oB+.  .          |
+|+.*o .           |
+|B=++o            |
++----[SHA256]-----+
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/planets (main)
+$ cat ~/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIIVVjygne6RucEJ2jcsxDku4tni4c1CvKdVy67EFB3/ cristian.ortiz@unl.edu.ec
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/planets (main)
+$ ssh -T git@github.com
+The authenticity of host 'github.com (140.82.114.4)' can't be established.
+ED25519 key fingerprint is: SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Hi Crispv182! You've successfully authenticated, but GitHub does not provide shell access.
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/planets (main)
+$ ls -F
+mars.txt  spaceships/
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/planets (main)
+$ git push origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 811 bytes | 270.00 KiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To github.com:Crispv182/planets.git
+ * [new branch]      main -> main
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/planets (main)
+$ cd
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~
+$ cd Desktop/
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop
+$ git clone git@github.com:NinaYB/planets.git
+Cloning into 'planets'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (6/6), done.
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop
+$ pwd
+/c/Users/Cristian Ortiz/Desktop
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop
+$ ls planets
+mars.txt
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop
+$ cd planets
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/planets (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/planets (main)
+$ nano venus.txt
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/planets (main)
+$ nano mars.txt
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/planets (main)
+$ git add mars.txt
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/planets (main)
+$ got connmit -m "New comand"
+bash: got: command not found
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/planets (main)
+$ git connmit -m "New comand"
+git: 'connmit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/planets (main)
+$ git commit -m "New comand"
+[main da69fc4] New comand
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/planets (main)
+$ git push origin main
+ERROR: Permission to NinaYB/planets.git denied to Crispv182.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/planets (main)
+$ cd
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~
+$ cd Desktop/
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop
+$ git clone https://codeberg.org/CienciaAbierta-IES-Ec/DataSchool_Quito_2026.git
+Cloning into 'DataSchool_Quito_2026'...
+remote: Enumerating objects: 706, done.
+remote: Counting objects: 100% (655/655), done.
+remote: Compressing objects: 100% (495/495), done.
+remote: Total 706 (delta 145), reused 645 (delta 135), pack-reused 51 (from 1)
+Receiving objects: 100% (706/706), 299.19 MiB | 621.00 KiB/s, done.
+Resolving deltas: 100% (157/157), done.
+error: invalid path '02_research_data_management/TriesteMaterials/RDM/Open and Responsible Research videos and slides/ORR Monday /Ethics_Final_presentation.pptx'
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop
+$ cd Escuela_de_verano/
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ cd shell-lesson-data/
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/shell-lesson-data (main)
+$ $ git clone git@github.com:NinaYB/planets.git
+bash: $: command not found
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/shell-lesson-data (main)
+$ git clone git@github.com:NinaYB/planets.git
+Cloning into 'planets'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (6/6), done.
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/shell-lesson-data (main)
+$ nano mars.txt
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/shell-lesson-data (main)
+$ ls shell-lesson-data
+ls: cannot access 'shell-lesson-data': No such file or directory
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/shell-lesson-data (main)
+$ ls
+exercise-data/  north-pacific-gyre/  planets/
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/shell-lesson-data (main)
+$ ls planets
+mars.txt
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/shell-lesson-data (main)
+$ nano mars.txt
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/shell-lesson-data (main)
+$ cd planets
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/shell-lesson-data/planets (main)
+$ nano mars.txt
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/shell-lesson-data/planets (main)
+$ cd /c/Users/Cristian\ C/ruta/a/planets
+bash: cd: /c/Users/Cristian C/ruta/a/planets: No such file or directory
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/shell-lesson-data/planets (main)
+$ cd
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~
+$ cd Desktop/
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop
+$ cd Escuela_de_verano/
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Ejercicio.docx
+        comandos para replicar git.txt
+        planets/
+        shell-lesson-data/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git add Ejercicio.docx
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git commit -m "descripción de los cambios"
+[main 07a8332] descripción de los cambios
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Ejercicio.docx
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git push origin main
+git@codeberg.org: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git remote -v
+origin  ssh://git@codeberg.org/Crispv182/Escuela_verano.git (fetch)
+origin  ssh://git@codeberg.org/Crispv182/Escuela_verano.git (push)
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git remote set-url origin https://github.com/Crispv182/planets.git
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git remote -v
+origin  https://github.com/Crispv182/planets.git (fetch)
+origin  https://github.com/Crispv182/planets.git (push)
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git push origin main
+To https://github.com/Crispv182/planets.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Crispv182/planets.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git push origin main
+To https://github.com/Crispv182/planets.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Crispv182/planets.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ cd ~/Desktop/Escuela_de_verano
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git remote -v
+origin  https://github.com/Crispv182/planets.git (fetch)
+origin  https://github.com/Crispv182/planets.git (push)
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        comandos para replicar git.txt
+        planets/
+        shell-lesson-data/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git add Ejercicio.docx
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git commit -m "agrego archivo Ejercicio"
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        comandos para replicar git.txt
+        planets/
+        shell-lesson-data/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git push origin main
+To https://github.com/Crispv182/planets.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Crispv182/planets.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git pull origin main --allow-unrelated-histories
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 9 (delta 2), reused 9 (delta 2), pack-reused 0 (from 0)
+Unpacking objects: 100% (9/9), 791 bytes | 49.00 KiB/s, done.
+From https://github.com/Crispv182/planets
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+Merge made by the 'ort' strategy.
+ mars.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+ create mode 100644 mars.txt
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git push origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 11.92 KiB | 11.92 MiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Crispv182/planets.git
+   6da0b12..748482a  main -> main
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ nano Ejercio_p.txt
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git add Ejercio_p.txt
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git commit -m "primera version"
+[main 25cc0fc] primera version
+ 1 file changed, 7 insertions(+)
+ create mode 100644 Ejercio_p.txt
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 640 bytes | 640.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Crispv182/planets.git
+   748482a..25cc0fc  main -> main
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ nano Ejercio_p.txt
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Ejercio_p.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        comandos para replicar git.txt
+        planets/
+        shell-lesson-data/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git diff Ejercio_p.txt
+diff --git a/Ejercio_p.txt b/Ejercio_p.txt
+index afce76f..9506912 100644
+--- a/Ejercio_p.txt
++++ b/Ejercio_p.txt
+@@ -5,3 +5,6 @@ Escriba tres acciones prácticas que aplicaría como instructor.
+ 1.     Enseñar con ejemplo prácticos intuitivos del mundo real
+ 2.     Ejercicios guiados paso a paso con acompañamiento constante y sin juzgar errores
+ 3.     Esperar a quienes se atrasan e ir enseñando línea por línea acompañado de un diccionario de comandos
++
++Sección 2
++Aqui va la sección 2
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ nano Ejercio_p.txt
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$  git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Ejercio_p.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        comandos para replicar git.txt
+        planets/
+        shell-lesson-data/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$  git diff Ejercio_p.txt
+diff --git a/Ejercio_p.txt b/Ejercio_p.txt
+index afce76f..23dbd7f 100644
+--- a/Ejercio_p.txt
++++ b/Ejercio_p.txt
+@@ -1,7 +1,10 @@
+-Ejercicio - Shell
++Ejercicio - She
+ ¿Cómo diseñaría e impartiría esta experiencia de aprendizaje para que sea abierta, responsable, accesible e inclusiva?
+ Escriba tres acciones prácticas que aplicaría como instructor.
+
+ 1.     Enseñar con ejemplo prácticos intuitivos del mundo real
+ 2.     Ejercicios guiados paso a paso con acompañamiento constante y sin juzgar errores
+ 3.     Esperar a quienes se atrasan e ir enseñando línea por línea acompañado de un diccionario de comandos
++
++Sección 2
++Aqui va la sección 2
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git add Ejercio_p.txt
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git commit -m "agrego donde va la sección 2 y el nombre She por Shell"
+[main af693a2] agrego donde va la sección 2 y el nombre She por Shell
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 366 bytes | 366.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Crispv182/planets.git
+   25cc0fc..af693a2  main -> main
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git log -p -- Ejercio_p.txt
+commit af693a20ad1de1de6cb484fa2e1db87e2a08f148 (HEAD -> main, origin/main)
+Author: Crispv182 <cristian.ortiz@unl.edu.ec>
+Date:   Tue Jul 7 11:35:14 2026 -0500
+
+    agrego donde va la sección 2 y el nombre She por Shell
+
+diff --git a/Ejercio_p.txt b/Ejercio_p.txt
+index afce76f..23dbd7f 100644
+--- a/Ejercio_p.txt
++++ b/Ejercio_p.txt
+@@ -1,7 +1,10 @@
+-Ejercicio - Shell
++Ejercicio - She
++Ejercicio - She
+ ¿Cómo diseñaría e impartiría esta experiencia de aprendizaje para que sea abierta, responsable, accesible e inclusiva?
+ Escriba tres acciones prácticas que aplicaría como instructor.
+
+ 1.     Enseñar con ejemplo prácticos intuitivos del mundo real
+ 2.     Ejercicios guiados paso a paso con acompañamiento constante y sin juzgar errores
+ 3.     Esperar a quienes se atrasan e ir enseñando línea por línea acompañado de un diccionario de comandos
++
++Sección 2
++Aqui va la sección 2
+
+commit 25cc0fce5c61a0de7c29f4c524207e0c9382ba4c
+Author: Crispv182 <cristian.ortiz@unl.edu.ec>
+Date:   Tue Jul 7 11:30:31 2026 -0500
+
+    primera version
+
+diff --git a/Ejercio_p.txt b/Ejercio_p.txt
+new file mode 100644
+index 0000000..afce76f
+--- /dev/null
++++ b/Ejercio_p.txt
+@@ -0,0 +1,7 @@
++Ejercicio - Shell
++¿Cómo diseñaría e impartiría esta experiencia de aprendizaje para que sea abierta, responsable, accesible e inclusiva?
++Escriba tres acciones prácticas que aplicaría como instructor.
++
++1.     Enseñar con ejemplo prácticos intuitivos del mundo real
++2.     Ejercicios guiados paso a paso con acompañamiento constante y sin juzgar errores
++3.     Esperar a quienes se atrasan e ir enseñando línea por línea acompañado de un diccionario de comandos
+
+Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano (main)
+$ git log --oneline -- Ejercio_p.txt
+af693a2 (HEAD -> main, origin/main) agrego donde va la sección 2 y el nombre She por Shell
+25cc0fc primera version
