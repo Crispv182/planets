@@ -24,18 +24,6 @@ $ ls -F
 mars.txt  spaceships/
 
 Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/planets (main)
-$ git remoete add origin git@github.com:Crispv182/planets.git
-git: 'remoete' is not a git command. See 'git --help'.
-
-The most similar commands are
-        remote
-        remote-ext
-
-Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/planets (main)
-$ $ git remote add origin git@github.com:Crispv182/planets.git
-bash: $: command not found
-
-Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/planets (main)
 $ git remote add origin git@github.com:Crispv182/planets.git
 
 Cristian Ortiz@DESKTOP-H47MERI MINGW64 ~/Desktop/Escuela_de_verano/planets (main)
