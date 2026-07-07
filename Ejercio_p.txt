@@ -1,0 +1,7 @@
+Ejercicio - Shell
+¿Cómo diseñaría e impartiría esta experiencia de aprendizaje para que sea abierta, responsable, accesible e inclusiva?
+Escriba tres acciones prácticas que aplicaría como instructor.
+
+1.	Enseñar con ejemplo prácticos intuitivos del mundo real
+2.	Ejercicios guiados paso a paso con acompañamiento constante y sin juzgar errores
+3.	Esperar a quienes se atrasan e ir enseñando línea por línea acompañado de un diccionario de comandos 
